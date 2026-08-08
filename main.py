@@ -1,7 +1,7 @@
-quantidade_de_notas = 4
+quantidade_notas = 4
 
 notas = []
-for i in range(quantidade_de_notas):
+for i in range(quantidade_notas):
     while True:
             nota = float(input(f"Digite a nota {i + 1} (0-10): "))
             if 0 <= nota <= 10:
@@ -15,7 +15,7 @@ soma = 0
 for nota in notas:
     soma += nota
 
-    media = soma / quantidade_de_notas
+    media = soma / quantidade_notas
 
     if media >= 7:
         classificacao = "desempenho satisfatório"
