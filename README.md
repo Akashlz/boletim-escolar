@@ -5,4 +5,4 @@ O programa foi desenvolvido para armazenar as notas informadas pelo usuário em 
 
 Depois do armazenamento das notas, o programa percorre a lista para calcular a soma de todos os valores. E depois, a média é obtida dividindo a soma pela quantidade de notas.
 
-Por fim, a média é analisada por uma estrutura condicional. Se a média for maior ou igual a 7, a classificação é desempenho satisfatório. Se a média seja menor que 7, o resultado é desempenho insatisfatório.
+Por fim, a média é analisada por uma estrutura condicional. Se a média for maior ou igual a 7, a classificação é desempenho satisfatório. Se a média for menor que 7, o resultado é desempenho insatisfatório.
