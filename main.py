@@ -3,15 +3,12 @@ quantidade_de_notas = 4
 notas = []
 for i in range(quantidade_de_notas):
     while True:
-        try:
             nota = float(input(f"Digite a nota {i + 1} (0-10): "))
             if 0 <= nota <= 10:
                 notas.append(nota)
                 break
             else:
                 print("Nota errada. Digite uma nota entre 0 e 10.")
-        except ValueError:
-            print("Por favor, digite um número válido.")
 
 
 soma = 0
